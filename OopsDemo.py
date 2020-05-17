@@ -15,12 +15,15 @@ class Calculator:
         self.firstNumber = a
         self.secondNumber = b  # instance variables
         print("I am called automatically when object is created")
+        print("test develop branch")
 
     def getData(self):
         print("Now executing as a method in class")
+        print("test develop branch1")
 
     def summation(self):
         return self.firstNumber + self.secondNumber + Calculator.num
+        
 
 
 obj = Calculator(2, 3)  # syntax to create objects in python
@@ -32,3 +35,5 @@ obj1 = Calculator(4, 5)  # syntax to create objects in python
 obj1.getData()
 obj1.num
 print(obj1.summation())
+
+print("test develop branch3")
